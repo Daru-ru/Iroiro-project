@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Article</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="header.css">
+
+        <style>
+            .article-main {
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                height: 600px;
+                flex-direction: column;
+
+            }
+
+            .article-main-header {
+                font-size: clamp(2rem, 0.571rem + 3.81vw, 4rem);
+            }
+
+            .article-main-lists {
+                border: 2px solid black;
+                width: 800px;
+                height: 400px;
+                overflow: scroll;
+            }
+
+            @media (max-width: 800px) {
+                .article-main-lists {
+                    width: 600px;
+                }
+            }
+
+            @media (max-width: 650px) {
+                .article-main-lists {
+                    width: 350px;
+                }
+            }
+
+            @media (max-width: 370px) {
+                .article-main-lists {
+                    width: 300px;
+                }
+            }
+
+            .article-main-lists-block {
+                width: 90%;
+                text-align: center;
+                margin: 10px auto;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="header-logo">
+                <a href="HomePage.html">Iroiro</a>
+            </div>
+            <div class="header-nav">
+                <a href="ArticlePage.html">Article</a>
+                <a href="#">Gallery</a>
+                <a href="CreatorPage.html">Creator</a>
+            </div>
+        </div>
+
+        <div class="article-main">
+            <p class="article-main-header">Article List</p>
+
+            <div class="article-main-lists">
+
+                <div class="article-main-lists-block">
+                    <h3>Example</h3>
+                    <p>23/02/05</p>
+                </div>
+
+                <div class="article-main-lists-block">
+                    <h3>Example</h3>
+                    <p>23/02/05</p>
+                </div>
+
+                <div class="article-main-lists-block">
+                    <h3>Example</h3>
+                    <p>23/02/05</p>
+                </div>
+
+                <div class="article-main-lists-block">
+                    <h3>Example</h3>
+                    <p>23/02/05</p>
+                </div>
+
+                <div class="article-main-lists-block">
+                    <h3>Example</h3>
+                    <p>23/02/05</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="header.css">
+
+        <style>
+
+            h1 {
+                font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem);
+            }
+
+            .creator-main {
+                width: 100%;
+            }
+
+            .creator-img {
+                display: flex;
+                justify-content: center;
+                align-items: end;
+                height: 200px;
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .creator-bio {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 5px auto;
+            }
+
+            .creator-bio h1 {
+                margin: 0;
+            }
+
+            .creator-socmed {
+                width: 100px;
+                height: 70px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .creator-socmed a {
+                font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem);
+                text-decoration: none;
+                color: black;
+            }
+
+            .creator-socmed a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="header-logo">
+                <a href="HomePage.html">Iroiro</a>
+            </div>
+            <div class="header-nav">
+                <a href="ArticlePage.html">Article</a>
+                <a href="#">Gallery</a>
+                <a href="CreatorPage.html">Creator</a>
+            </div>
+        </div>
+
+        <div class="creator-main">
+            <div class="creator-img">
+                <img src="./images/user.png">
+            </div>
+            <div class="creator-bio">
+                <h1>Daruru</h1>
+                <p>Manusia biasa</p>
+                <div class="creator-socmed">
+                    <a href=" https://wa.me/85723684690" class="fa fa-whatsapp"></a>
+                    <a href="mailto:awasip21@gmail.com" class="fa fa-google"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
